@@ -1,23 +1,3 @@
-/*import { useState, useEffect } from 'react'
-
-function Dependecy() {
-    const [value, setValue] = useState(0)
-
-    useEffect(() => {
-        console.log('tek render')
-    }, []);
-
-
-    useEffect(() => {
-        console.log('value dəyişdi')
-    }, [value]);
-
-    useEffect(() => {
-        setCount(count + 1);
-    }, [count]);
-}
-
-export default Dependecy*/
 import { useState, useEffect } from 'react';
 import './jokeapp.css';
 
